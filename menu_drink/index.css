@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@200;400;700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: 'Prompt', sans-serif;
+}
+.logout{
+  margin-top: 25px;
+  margin-right: 25px;
+  text-align: right;
+}
+.logout a{
+  color: rgb(255, 255, 255);
+  font-size: 13px;
+  border-radius: 3px;
+  padding: 15px 10px;
+  background-color: #dc3545;
+  transition-duration: 0.4s;
+}
+.website{
+  margin-top: 40px;
+  margin-right: 25px;
+  text-align: right;
+}
+.website a{
+  color: rgb(255, 255, 255);
+  font-size: 13px;
+  border-radius: 3px;
+  padding: 15px 10px;
+  background-color: #8f4500;
+  transition-duration: 0.4s;
+}
+.container {
+  margin: 15px;
+  text-align: center;
+}
+h1 {
+  margin: 40px;
+}
+table {
+  margin-top: 15px;
+  border-collapse: collapse;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #dddddd;
+}
+th,
+td {
+  text-align: center;
+  padding: 8px;
+  border: 1px solid #dddddd;
+}
+
+.botton {
+  margin: 27px;
+}
+.bottonMenu a{
+    margin: 10px;
+    padding: 8px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    border-radius: 3px;
+    background-color: #007bff;
+    transition-duration: 0.4s;
+}
+.bottonAdd {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  border-radius: 3px;
+  padding: 8px;
+  background-color: #5cb85c;
+  transition-duration: 0.4s;
+}
+.bottonAdd:hover {
+  background-color: #429142;
+}
+.bottonEdit {
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  border-radius: 3px;
+  padding: 8px;
+  background-color: #ffc107;
+  transition-duration: 0.4s;
+}
+.bottonEdit:hover {
+  background-color: #cc9b08;
+}
+.bottonDel {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  border-radius: 3px;
+  padding: 8px;
+  background-color: #dc3545;
+  transition-duration: 0.4s;
+}
+.bottonDel:hover {
+  background-color: #b12937;
+}
+.bottonMenu a:hover{
+  background-color: #0067d4;
+}
+.logout a:hover{
+  background-color: #b12937;
+}
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
